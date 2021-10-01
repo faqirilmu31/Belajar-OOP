@@ -1,0 +1,103 @@
+Terdapat sebuah pesawat terbang yang dapat mengangkut penumpang. Pesawat tersebut memiliki nama, kapasitas maksimal penumpang,
+ jumlah penumpang, harga tiket. Pada saat pembuatannya, pesawat hanya menerima input nama, kapasitas maksimal, dan harga tiket.
+
+Pesawat tersebut dapat menambahkan beberapa penumpang dalam sekali pemberhentian. Pesawat akan menambahkan penumbang 2 kali 
+dan penumpang hanya memiliki nama. Penumpang yang masuk tidak dapat melebihi kapasitas maksimal penumpang pada pesawat tersebut. 
+Jika pesawat sudah penuh penumpang, maka orang yang baru tidak dapat masuk.
+
+Pesawat juga dapat mencetak status pesawat yang berisi Nama pesawat, Jumlah Penumpang, Penumpang pertama, Penumpang terakhir, dan Omzet totalnya.
+
+
+===== Input Format =====
+
+namaPesawat
+
+penumpangMax
+
+hargaTiket
+
+jumlahPenumpang1
+
+nama (sebanyak jumlahPenumpang1)
+
+jumlahPenumpang2
+
+nama (sebanyak jumlahPenumpang2)
+
+
+===== Constraints =====
+
+hargaTiket berupa bilangan bulat
+
+Segala proses input sudah aku sediakan dan tulis di main, kalian tidak perlu bingung tentang bagaimana cara handling input dari user. Jadikan class Solution sebagai acuan kalian dalam menulis program
+
+Output Format
+
+Nama pesawat: nama pesawat
+
+Jumlah Penumpang: jumlah penumpang
+
+Penumpang pertama: nama penumpang pertama
+
+Penumpang terakhir: nama penumpang terakhir
+
+Total Omzet: jumlah penumpang * harga tiket
+
+
+====== Sample Input 0 ======
+
+Boeing
+2
+1300
+2
+Ani
+Budi
+1
+Diki
+
+
+====== Sample Output 0  ======
+
+Nama pesawat: Boeing
+Jumlah Penumpang: 2
+Penumpang pertama: Ani
+Penumpang terakhir: Budi
+Total Omzet: 2600
+
+====== Explanation 0 ======
+
+Karena pesawat tersebut memiliki kapasitas maksimal penumpang sebanyak 2 orang saja, 
+maka hanya Ani dan Budi yang dapat masuk kedalam pesawat itu, diki tidak dapat kursi sehingga tidak masuk kedalam daftar penumpang
+
+
+====== Sample Input 1 ======
+
+Jet
+1
+1500
+2
+Smitty
+Jimmy
+1
+Rudi
+
+
+====== Sample Output 1 ======
+
+Nama pesawat: Jet
+Jumlah Penumpang: 1
+Penumpang pertama: Smitty
+Penumpang terakhir: Smitty
+Total Omzet: 1500
+
+====== Explanation 1 ======
+
+Karena pesawat itu hanya memiliki 1 kursi, maka hanya Smitty yang dapat masuk
+
+Submissions: 37
+Max Score: 100
+Rate This Challenge:
+
+    
+More
+ 
